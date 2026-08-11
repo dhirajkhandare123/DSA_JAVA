@@ -1,3 +1,12 @@
+// Question: Length of the Longest Substring Without Repeating Characters
+// Given a string, find the length of the longest substring that contains no repeated characters.
+// Example
+// Input:
+// abcdabcebb
+// Output:
+// 5
+
+
 import java.util.ArrayList;
 import java.util.List;
 
