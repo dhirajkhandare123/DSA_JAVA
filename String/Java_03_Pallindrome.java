@@ -1,4 +1,4 @@
-public class Pallindrome2 {
+public class Java_03_Pallindrome {
     public static void main(String[] args) {
         String str = "Levell";
 

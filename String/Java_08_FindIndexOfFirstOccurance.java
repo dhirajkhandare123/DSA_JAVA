@@ -11,7 +11,7 @@
 // The solution should implement the search logic without directly using indexOf().
 
 
-public class FindIndexOfFirstOccurance {
+public class Java_08_FindIndexOfFirstOccurance {
     public static void main(String[] args) {
         String hayStack = "dhiraj";
         String needle = "raj";

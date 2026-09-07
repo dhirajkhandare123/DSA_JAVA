@@ -1,6 +1,6 @@
 
 
-public class Pallindrome{
+public class Java_02_Pallindrome{
     public static void main(String[] args) {
         String str = "level";
 

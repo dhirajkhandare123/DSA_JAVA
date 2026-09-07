@@ -10,7 +10,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class LengthOfLongestString {
+public class Java_07_LengthOfLongestString {
 
     public static void main(String[] args) {
         String str= "abcdabcebb";

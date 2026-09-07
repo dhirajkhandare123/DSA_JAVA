@@ -9,7 +9,7 @@
 // Input: s = "  The sky is not  limit  "
 // Output: "limit not is sky The"
 
-public class ReverseWordsInString {
+public class Java_04_ReverseWordsInString {
     public static void main(String[] args) {
         String str = "  The sky is not  limit  ";
         System.out.println(reverseWords(str));

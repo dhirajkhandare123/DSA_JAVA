@@ -8,7 +8,7 @@
 // Output: 4
 
 
-public class LengthOfLastWord {
+public class Java_06_LengthOfLastWord {
     public static void main(String[] args){
         String s = " The color of moon     ";
         System.out.println(lengthLastWord(s));

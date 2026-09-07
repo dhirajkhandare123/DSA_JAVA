@@ -1,4 +1,4 @@
-public class CountNumberOfCharacters {
+public class Java_05_CountNumberOfCharacters {
     public static void main(String[] args) {
         String str= "Hello World";
 
