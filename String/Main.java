@@ -1,20 +1,16 @@
 class Main{
-    static void main() {
-        String str = " dfasd wkmw wrtw      sfnawv  lkcn  ";
-        System.out.println(lengthOflastWord(str));
-    }
+    static void main(String[] args) {
+        String str = "      The sky     is not  limit           ";
 
-    public static int lengthOflastWord(String s){
-        String res = s.trim();
-        int count =0;
-        for(int i=res.length()-1;i>=0;i--){
-            if(res.charAt(i)!= ' '){
-                count++;
-            }
-            else {
-                break;
-            }
+        StringBuilder sb = new StringBuilder();
+
+        String []rev = str.split(" +");
+
+        for(int i=rev.length-1;i>=0;i--){
+            sb.append(rev[i]);
+            sb.append(" ");
         }
-        return count;
+
+        System.out.println(sb.toString().trim());
     }
 }
