@@ -18,7 +18,6 @@ public class J_03_PrintPrimeNumbers {
 
         System.out.println(list);
     }
-
     public static List<Integer> printPrimeNumbers(int first, int second){
         ArrayList<Integer> primes = new ArrayList<>();
 
