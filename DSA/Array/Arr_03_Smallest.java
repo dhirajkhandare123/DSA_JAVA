@@ -6,12 +6,11 @@ public class Arr_03_Smallest {
 
         int min = arr[0];
 
-        for(int i=0;i<=arr.length-1;i++){
-            if(arr[i]<min){
+        for(int i=0;i<=arr.length-1;i++) {
+            if (arr[i] < min) {
                 min = arr[i];
             }
         }
-
         System.out.println("Smallest: " + min);
     }
 }
