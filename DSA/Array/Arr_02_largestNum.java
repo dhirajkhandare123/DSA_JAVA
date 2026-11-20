@@ -13,7 +13,5 @@ public class Arr_02_largestNum {
         }
 
         System.out.println("Largest: " + max);
-
-
     }
 }
