@@ -1,20 +1,25 @@
 package String;
 
 class Main{
-    static void main(String []args){
-        String str = "  The  sky  is   limit        ";
+    public static void main(String []args){
+        String s = "The    sky       is not    limit";
 
-        String res = reverseWord(str);
-        System.out.println(res.trim());
+        String res = reverseWord(s);
+        System.out.println(res);
+
     }
 
     static String reverseWord(String str){
-        String []words = str.split(" +");
+
+        String []arr = str.split(" +");
+
         StringBuilder sb = new StringBuilder();
-        for(int i=words.length-1;i>=0;i--){
-            sb.append(words[i]);
+
+        for(int i=arr.length-1;i>=0;i--){
+            sb.append(arr[i]);
             sb.append(" ");
         }
-        return sb.toString();
+
+        return sb.toString().trim();
     }
 }
